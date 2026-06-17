@@ -3,6 +3,23 @@ Machine learning-based diabetes risk prediction system using XGBoost trained on 
 
 ---
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Requirements](#requirements)
+- [Getting Started](#getting-started)
+- [Input Fields](#input-fields)
+- [Model Details](#model-details)
+- [Dataset](#dataset)
+- [Screenshots](#screenshots)
+- [Disclaimer](#disclaimer)
+- [License](#license)
+
+---
+
 ## Overview
 
 This application trains an XGBoost classifier on a clinical diabetes dataset and exposes it through a clean, dark-themed desktop GUI. Users enter patient data, receive an instant risk prediction with a confidence score, and can explore a feature importance chart to understand which factors drive the prediction.
@@ -121,7 +138,31 @@ The model is trained on `diabetes_prediction_dataset.csv`, which contains labele
 
 ## Screenshots
 
-> _Add screenshots of the main prediction window and the feature importance chart here._
+### 1. Prediction Dashboard
+Enter patient health indicators and generate a diabetes risk prediction.
+
+![Prediction Dashboard](screenshots/diabates/1.png)
+
+---
+
+### 2. High-Risk Diabetes Detection
+Prediction result indicating elevated diabetes risk with confidence score.
+
+![High-Risk Diabetes Detection](screenshots/diabates/2.png)
+
+---
+
+### 3. Low-Risk Assessment
+Prediction result indicating low diabetes risk based on patient health indicators.
+
+![Low-Risk Assessment](screenshots/diabates/3.png)
+
+---
+
+### 4. Feature Importance Analysis
+Interactive chart showing which clinical factors most influence the model's prediction.
+
+![Feature Importance Analysis](screenshots/diabates/4.png)
 
 ---
 
@@ -134,4 +175,3 @@ This application is intended for **educational and research purposes only**. It 
 ## License
 
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
